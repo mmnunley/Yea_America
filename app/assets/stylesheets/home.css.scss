@@ -19,14 +19,22 @@ menu{
 	margin:auto;
 	padding:0;
 	list-style-type:none;
+	text-align: center;	
+	width: 670px;
 	li{
 		display: inline;
-		float:left;
-		padding: 10px;
+		float: left;
+		text-align: center;
+		a{
+			text-decoration: none;
+			padding: 10px 40px 10px 40px;
+		}
+			
 	}
 }
 
 header {
-	height: 100px;
+	height: 70px;
 	background-color: red;
+	margin: auto;
 }
