@@ -1,15 +1,108 @@
 body {
   background-color: #fff;
-  color: #333;
+  margin: auto;
+  //color: #333;
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
 }
 
+menu{
+  margin:auto;
+  list-style-type: none;
+  li{
+    display: inline;
+    float: left;
+    padding-top: 40px;
+    a{
+      text-decoration: none;
+      padding: 10px 10px 10px 10px;
+
+    }
+    //a:visited, a:active, a:link, a:hover{
+    //  text-decoration: none;
+    //}
+  }
+}
+
+header {
+  background-color: red;
+  margin: auto;
+  width: 150px;
+  position: fixed;
+  border-left: solid 2px #FF3737;
+  border-right: solid 40px #FF3737;
+  left: 0px;
+  height: 2000px;
+  z-index: 606;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.5);
+  text-align: center;
+}
+
+.headerright{
+  background-color: #FF9393;
+  margin: auto;
+  width: 150px;
+  position: fixed;
+  border-left: solid 2px #FF3737;
+  border-right: solid 40px #FFDFDF;
+  left: 80px;
+  height: 2000px;
+  z-index: 601;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.5);
+  text-align: center;
+}
+
+footer{
+  text-align: center;
+  background-color: blue;
+  height: 2000px;
+  position: fixed;
+  background-color: #1C94C9;
+  border-left: solid 40px #49BFE8;
+  border-right: solid 2px #49BFE8;
+  right: 0px;
+  width: 150px;
+  z-index: 605;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.5);
+}
+
+.footerleft{
+  background-color: blue;
+  height: 2000px;
+  position: fixed;
+  background-color: #9FDAF2;
+  border-left: solid 40px #E9F8FC;
+  border-right: solid 2px #49BFE8;
+  right: 80px;
+  width: 150px;
+  z-index: 605;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.5);
+}
+
+
 p, ol, ul, td {
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
+}
+
+#core_content{
+  margin: auto;
+  width: 800px;
+  //border-left: 3px solid rgba(0,0,0,0.1);
+  //border-right: 3px solid rgba(0,0,0,0.1);
+  padding: 10px;
+}
+
+#body{
+  width: 1000px;
+  margin: auto;
+}
+
+h1{
+  font-size: 30px;
+  font: 100% Helvetica, sans-serif;
 }
 
 pre {
@@ -21,7 +114,7 @@ pre {
 a {
   color: #000;
   &:visited {
-    color: #666;
+    
   }
   &:hover {
     color: #fff;
